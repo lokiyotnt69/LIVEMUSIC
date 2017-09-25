@@ -10,7 +10,7 @@
 <regex>
             <name>makelist</name>
             <listrepeat><![CDATA[
-                          <title>[COLOR lime] LIVE MUSIC/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                          <title>[COLOR lime] LIVE MUSIC [/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
                        <thumbnail></thumbnail>
     <fanart></fanart>
