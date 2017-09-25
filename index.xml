@@ -59,10 +59,10 @@
     <fanart></fanart>
 </item>
 
-https://www.youtube.com/watch?v=tnt2qy6WpmU&list=PLED95D4508CADA5BD
+
 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EL BARRIO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
