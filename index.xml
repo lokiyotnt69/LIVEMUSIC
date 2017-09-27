@@ -20,9 +20,7 @@
  
  <thumbnail></thumbnail>
     <fanart></fanart>
-</item>
- 
- 
+</item> 
  
  
  
@@ -34,10 +32,7 @@
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/test1.xml</externallink>
 </item>
  
- 
- https://www.youtube.com/watch?v=AS5DOyyoXJI&list=PL08E81BF8023C4996
- 
- 
+
  
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] DAVID BISBAL [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
@@ -62,7 +57,7 @@
 
 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EL BARRIO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EL BARRIO+ [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -73,18 +68,17 @@
     <fanart></fanart>
             ]]></listrepeat>
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?tnt2qy6WpmU&amp;list=PLED95D4508CADA5BD</page>
+            <page>https://www.youtube.com/watch?3XEXo_szxyA&amp;list=PLA536BC4F1B31A9C1</page>
              <cookieJar></cookieJar>
 </regex>
  
  <thumbnail></thumbnail>
     <fanart></fanart>
 </item>
- 
  
  
  <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ALEJANDRO SANZ  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -95,7 +89,7 @@
     <fanart></fanart>
             ]]></listrepeat>
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
+            <page>https://www.youtube.com/watch?v=LfQrm1S4K&amp;list=PL8954ED359B77D7FC</page>
              <cookieJar></cookieJar>
 </regex>
  
@@ -147,14 +141,7 @@
  
  
  
- 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] DAVID BISBAL [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/DBISBAL.xml</externallink>
-</item>
+
  
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EL BARRIO  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
