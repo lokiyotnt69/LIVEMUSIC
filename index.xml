@@ -54,28 +54,18 @@
     <fanart></fanart>
 </item>
 
--------------------------------------------------------
+
 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EL BARRIO+ [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-            <name>makelist</name>
-            <listrepeat><![CDATA[
-                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail></thumbnail>
-    <fanart></fanart>
-            ]]></listrepeat>
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?tnt2qy6WpmU&amp;list=PLED95D4508CADA5BD</page>
-             <cookieJar></cookieJar>
-</regex>
- 
- <thumbnail></thumbnail>
-    <fanart></fanart>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EL BARRIO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/elbarrio.xml</externallink>
 </item>
- https://www.youtube.com/watch?v=tnt2qy6WpmU&list=PLED95D4508CADA5BD
+
+
+
  
  <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ALEJANDRO SANZ  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
@@ -97,9 +87,8 @@
     <fanart></fanart>
 </item>
 
-https://www.youtube.com/watch?v=LfQrm1S4K-I&list=PL1BD9F45E23B4925D
 
-
+-------------------------------------------------------
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -145,22 +134,6 @@ https://www.youtube.com/watch?v=LfQrm1S4K-I&list=PL1BD9F45E23B4925D
  
 
 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ANTONIO OROZCO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/antoniorozco.xml</externallink>
-</item>
-
-
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EL BARRIO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/elbarrio.xml</externallink>
-</item>
 
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
@@ -181,7 +154,7 @@ https://www.youtube.com/watch?v=LfQrm1S4K-I&list=PL1BD9F45E23B4925D
  
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MAGO DE OZ [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
+<thumbnail>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/MEDINAAZAHARA.xml</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
 <externallink></externallink>
