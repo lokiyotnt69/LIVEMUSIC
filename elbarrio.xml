@@ -17,7 +17,7 @@
     <fanart></fanart>
             ]]></listrepeat>
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?tnt2qy6WpmU&amp;list=PLED95D4508CADA5BD</page>
+            <page>https://www.youtube.com/watch?v=tnt2qy6WpmU&amp;list=PLED95D4508CADA5BD</page>
              <cookieJar></cookieJar>
 </regex>
  
