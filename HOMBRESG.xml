@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=NW3Yt-ap8ic&amp;list=RDNW3Yt-ap8ic&t=2</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail></thumbnail>
+    <fanart></fanart>
+</item>
+
+https://www.youtube.com/watch?v=NW3Yt-ap8ic&list=RDNW3Yt-ap8ic&t=2
