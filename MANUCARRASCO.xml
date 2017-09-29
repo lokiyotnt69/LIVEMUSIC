@@ -2,7 +2,7 @@
 
 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] HOMBRES G [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MANUEL CARRASCO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -13,12 +13,13 @@
     <fanart></fanart>
             ]]></listrepeat>
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=NW3Yt-ap8ic&amp;list=RDNW3Yt-ap8ic&t=2</page>
+            <page>https://www.youtube.com/watch?v=Vj1190w58UM&amp;list=PLJaT5gj1oqPRFg3Dd-SV3aQ93EB3kqOxc</page>
              <cookieJar></cookieJar>
 </regex>
  
  <thumbnail></thumbnail>
     <fanart></fanart>
 </item>
+ 
 
-https://www.youtube.com/watch?v=NW3Yt-ap8ic&list=RDNW3Yt-ap8ic&t=2
+https://www.youtube.com/watch?v=Vj1190w58UM&list=PLJaT5gj1oqPRFg3Dd-SV3aQ93EB3kqOxc
