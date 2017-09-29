@@ -4,7 +4,7 @@
 
 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MEDINA AZAHARA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -28,7 +28,7 @@
  
  
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MIX EXITOS [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -39,7 +39,7 @@
     <fanart></fanart>
             ]]></listrepeat>
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
+            <page>https://www.youtube.com/watch?v=fuXQMjEQMhA&amp;list=RDEMigq4FGZKJ63u9y9RllpqKg</page>
              <cookieJar></cookieJar>
 </regex>
  
@@ -47,3 +47,4 @@
     <fanart></fanart>
 </item>
  
+ https://www.youtube.com/watch?v=fuXQMjEQMhA&list=RDEMigq4FGZKJ63u9y9RllpqKg
