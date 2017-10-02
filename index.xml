@@ -83,23 +83,23 @@
             <listrepeat><![CDATA[
                           <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail></thumbnail>
-    <fanart></fanart>
+                       <thumbnail>https://static.fnac-static.com/multimedia/Images/ES/NR/47/db/11/1170247/1507-1/tsp20151118124225/Sirope-vivo-DVD.jpg</thumbnail>
+    <fanart>https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201505/21/00105110280004____1__600x600.jpg</fanart>
             ]]></listrepeat>
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
             <page>https://www.youtube.com/watch?v=LfQrm1S4K-I&amp;list=PL1BD9F45E23B4925D</page>
              <cookieJar></cookieJar>
 </regex>
  
- <thumbnail></thumbnail>
-    <fanart></fanart>
+ <thumbnail>https://static.fnac-static.com/multimedia/Images/ES/NR/47/db/11/1170247/1507-1/tsp20151118124225/Sirope-vivo-DVD.jpg</thumbnail>
+    <fanart>https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201505/21/00105110280004____1__600x600.jpg</fanart>
 </item>
 
  
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MEDINA AZAHARA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://www.fotoconciertos.com/wp-content/uploads/2014/08/MEDINA-AZAHARA-1-200x300.jpg</thumbnail>
+<fanart>http://images.coveralia.com/audio/m/Medina_Azahara-A_Toda_Esa_Gente-Frontal.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/MEDINAAZAHARA.xml</externallink>
 </item>
@@ -108,16 +108,16 @@
 
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EL ARREBATO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>http://www.lahiguera.net/musicalia/artistas/el_arrebato/fotos/6051/el_arrebato.jpg</thumbnail>
+<fanart>http://ocio.laopiniondezamora.es/img_contenido/noticias/2012/03/62402/75110156.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/ARREBATO.xml</externallink>
 </item>
 
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] HOMBRES G [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://is1-ssl.mzstatic.com/image/thumb/Music/v4/59/fb/8b/59fb8bea-effd-e775-30f9-3c384ab85709/8429006727650.jpg/200x0w.jpg</thumbnail>
+<fanart>http://revistakuadro.com/wp-content/uploads/2015/06/maxresdefault1.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/HOMBRESG.xml</externallink>
 </item>
@@ -125,8 +125,8 @@
  
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MANUEL CARRASCO  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://assets.metrolatam.com/mx/2016/06/13/captura-de-pantalla-2016-06-11-a-las-00-54-52-200x300.jpg</thumbnail>
+<fanart>http://sevilla.abc.es/media/cultura/2015/12/23/s/carrasco-concierto--620x349.JPG</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/MANUCARRASCO.xml</externallink>
 </item>
