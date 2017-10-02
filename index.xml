@@ -10,24 +10,24 @@
             <listrepeat><![CDATA[
                           <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail></thumbnail>
-    <fanart></fanart>
+                       <thumbnail>http://zetaestaticos.com/leon/img/noticias/0/086/86998_1.jpg</thumbnail>
+    <fanart>http://imag.elepe.com/t11/dos_orillas_la_nueva_version_de_antonio_orozco_11240.jpg</fanart>
             ]]></listrepeat>
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
             <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
              <cookieJar></cookieJar>
 </regex>
  
- <thumbnail></thumbnail>
-    <fanart></fanart>
+ <thumbnail>http://zetaestaticos.com/leon/img/noticias/0/086/86998_1.jpg</thumbnail>
+    <fanart>http://imag.elepe.com/t11/dos_orillas_la_nueva_version_de_antonio_orozco_11240.jpg</fanart>
 </item> 
  
  
  
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ESTOPA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>http://www.publispain.com/estopa/imagenes/estopa_-_voces_de_ultrarumba.jpg</thumbnail>
+<fanart>http://www.lahiguera.net/musicalia/artistas/estopa/disco/5862/estopa_esto_es_estopa-portada.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/test1.xml</externallink>
 </item>
@@ -42,24 +42,24 @@
             <listrepeat><![CDATA[
                           <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail></thumbnail>
-    <fanart></fanart>
+                       <thumbnail>http://www.davidbisbalweb.com/images/corazonlatino2.jpg</thumbnail>
+    <fanart>https://www.dicelacancion.com/revista/wp-content/uploads/2014/02/T%C3%BA-y-Yo-David-Bisbal.jpg</fanart>
             ]]></listrepeat>
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
             <page>https://www.youtube.com/watch?v=AS5DOyyoXJI&amp;list=PL08E81BF8023C4996</page>
              <cookieJar></cookieJar>
 </regex>
  
- <thumbnail></thumbnail>
-    <fanart></fanart>
+ <thumbnail>http://www.davidbisbalweb.com/images/corazonlatino2.jpg</thumbnail>
+    <fanart>https://www.dicelacancion.com/revista/wp-content/uploads/2014/02/T%C3%BA-y-Yo-David-Bisbal.jpg</fanart>
 </item>
 
 
 
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EL BARRIO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>http://img177.imagevenue.com/loc442/th_837298462_El_Barrio_La_Voz_De_Mi_Silencio_Frontal_122_442lo.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-hpxkPdvV1KI/UacIa_Ee9CI/AAAAAAAAEIU/ckKymZRE5OA/s1600/Discografia+el+barrio.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/elbarrio.xml</externallink>
 </item>
@@ -67,8 +67,8 @@
  
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MALU[/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://www.buenamusica.com/media/fotos/discos/m/malu/malu_guerra-fria.jpg</thumbnail>
+<fanart>http://porvalencia.com/wp-content/uploads/2012/11/Malu-Firma-Disco-Valencia.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/MALU.xml</externallink>
 </item>
@@ -122,6 +122,14 @@
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/HOMBRESG.xml</externallink>
 </item>
 
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MANUEL CARRASCO  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/MANUCARRASCO.xml</externallink>
+</item>
 
 -------------------------------------------------------
 <item>
@@ -182,14 +190,6 @@
 
 
 
- 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MANUEL CARRASCO  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/MANUCARRASCO.xml</externallink>
-</item>
 
 
 <item>
