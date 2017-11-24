@@ -175,6 +175,30 @@
     <fanart>https://www.dicelacancion.com/revista/wp-content/uploads/2014/02/T%C3%BA-y-Yo-David-Bisbal.jpg</fanart>
 </item>
 
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] DEMARCO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=Spz03zZcQMA&amp;list=PLeaj06dBGhfA2hrAqGeBV58de6qn1aSg9</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://i.ytimg.com/vi/Sh4oS_q_diU/hqdefault.jpg</thumbnail>
+    <fanart>https://i.ytimg.com/vi/Sh4oS_q_diU/hqdefault.jpg</fanart>
+</item>
+
+
+
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EL BARRIO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <thumbnail>http://img177.imagevenue.com/loc442/th_837298462_El_Barrio_La_Voz_De_Mi_Silencio_Frontal_122_442lo.jpg</thumbnail>
@@ -437,6 +461,26 @@
 
 
 <item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] METALLICA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=tAGnKpE4NCI&amp;list=PLXIdhrTXbAT2e5YIvo55jcQtNjgdFHYe_</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://loudwire.com/files/2011/12/Metallica.jpg</thumbnail>
+    <fanart>http://loudwire.com/files/2011/12/Metallica.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Monica Naranjo  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -619,6 +663,28 @@
 -------------------------------------------------------
 
 
+
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail></thumbnail>
+    <fanart></fanart>
+</item>
 
 
  
