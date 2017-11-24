@@ -3,6 +3,16 @@
 
 
 
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] PETICIONES CLIENTES [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+
  <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ALEJANDRO SANZ  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -418,6 +428,47 @@
 
 
 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] VANESSA MARTIN [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=LRmi22bsRHQ&amp;list=RDEMnkBjlDyHwSNPRDA4ThF5_Q</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://clcdn02.mundotkm.com/2015/11/vanessa-martin-entrevista-mundotkm.jpg</thumbnail>
+    <fanart>http://clcdn02.mundotkm.com/2015/11/vanessa-martin-entrevista-mundotkm.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail></thumbnail>
+    <fanart></fanart>
+</item>
 
 
 
