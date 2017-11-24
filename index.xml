@@ -73,6 +73,28 @@
     <fanart>http://s03.s3c.es/imag/_v0/770x420/c/f/6/carlos-baute-confesiones770.jpg</fanart>
 </item>
 
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] CAMARON DE LA ISLA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=A93m5DIbLw8&amp;list=PLuS01ZdIZd4eWmMs8Q51oV7094Wx72jSb</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://ep01.epimg.net/diario/imagenes/2010/11/24/madrid/1290601469_850215_0000000000_sumario_normal.jpg</thumbnail>
+    <fanart>https://ep01.epimg.net/diario/imagenes/2010/11/24/madrid/1290601469_850215_0000000000_sumario_normal.jpg</fanart>
+</item>
+ 
+
  <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Chayanne  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -226,6 +248,30 @@
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/test1.xml</externallink>
 </item>
+
+
+ 
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EXTREMO DURO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=9Iou2gjCGnI&amp;list=RDEMsZKLyvIl47Qqg4i9mCaPbw</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://www.rockmusic.org/extremoduro/ext1.jpg</thumbnail>
+    <fanart>http://www.rockmusic.org/extremoduro/ext1.jpg</fanart>
+</item>
+
 
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] HOMBRES G [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
@@ -579,49 +625,9 @@
 
 
  
+
  
- 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-            <name>makelist</name>
-            <listrepeat><![CDATA[
-                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail></thumbnail>
-    <fanart></fanart>
-            ]]></listrepeat>
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
-             <cookieJar></cookieJar>
-</regex>
- 
- <thumbnail></thumbnail>
-    <fanart></fanart>
-</item>
- 
- 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-            <name>makelist</name>
-            <listrepeat><![CDATA[
-                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail></thumbnail>
-    <fanart></fanart>
-            ]]></listrepeat>
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
-             <cookieJar></cookieJar>
-</regex>
- 
- <thumbnail></thumbnail>
-    <fanart></fanart>
-</item>
- 
+
 
 
 
