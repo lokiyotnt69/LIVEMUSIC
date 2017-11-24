@@ -5,7 +5,7 @@
 
 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] PETICIONES CLIENTES [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] BIENVENIDOS A LIVE MUSIC [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
@@ -682,8 +682,8 @@
              <cookieJar></cookieJar>
 </regex>
  
- <thumbnail></thumbnail>
-    <fanart></fanart>
+ <thumbnail>https://i.pinimg.com/originals/05/0c/9f/050c9fcaaf65a937bf757ffecb3ebb1a.jpg</thumbnail>
+    <fanart>https://i.pinimg.com/originals/05/0c/9f/050c9fcaaf65a937bf757ffecb3ebb1a.jpg</fanart>
 </item>
 
 
@@ -704,8 +704,8 @@
              <cookieJar></cookieJar>
 </regex>
  
- <thumbnail></thumbnail>
-    <fanart></fanart>
+ <thumbnail>http://www.abc.es/media/cultura/2017/09/27/manolo-garcia-k1KE--620x349@abc.jpg</thumbnail>
+    <fanart>http://www.abc.es/media/cultura/2017/09/27/manolo-garcia-k1KE--620x349@abc.jpg</fanart>
 </item>
 
 
