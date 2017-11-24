@@ -177,6 +177,28 @@
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/cantodeloco.xml</externallink>
 </item>
 
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EL ULTIMO DE LA FILA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=QyULv7wQr3A&amp;list=PPLXLXo07HMXlj6swhszmAX54CNYWRONg76</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://www.efeeme.com/wp-content/uploads/2008/12/cabecera-ultimo-de-la-fila-15-12-08.jpg</thumbnail>
+    <fanart>http://www.efeeme.com/wp-content/uploads/2008/12/cabecera-ultimo-de-la-fila-15-12-08.jpg</fanart>
+</item>
+ 
+
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Eros ramazzotti  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -272,6 +294,28 @@
  <thumbnail>https://d243u7pon29hni.cloudfront.net/imagesOnDemand/get?imagePath=/images/products/laura-pausini-exitos_l.png&width=1200&height=900&quality=65&imgType=product</thumbnail>
     <fanart>https://i.pinimg.com/736x/0a/d7/f8/0ad7f8d5a89b4a968f8415078d34fd4f--pin-image-latin-music.jpg</fanart>
 </item>
+
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] LA FUGA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=hdQ99wLYc2g&amp;list=RDEM6-OHwmF9YwRsh1izusAjWw</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://i.ytimg.com/vi/GjZ--hpVxSg/hqdefault.jpg</thumbnail>
+    <fanart>https://i.ytimg.com/vi/GjZ--hpVxSg/hqdefault.jpg</fanart>
+</item>
+
   
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MALU[/COLOR][COLOR yellow]  _**_[/COLOR]</title>
@@ -426,6 +470,29 @@
     <fanart>https://www.canarias7.es/binrepository/640x364/0c0/0d0/none/11314/VVKM/356942-1g_CSN356942_MG1487624.jpg</fanart>
 </item>
 
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Shakira [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=sPTn0QEhxds&amp;list=RDEM4s6ouTwHMSllkl-X-LBTQQ</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://www.elbernabeu.com/media/elbernabeu/images/2017/10/19/2017101916091181905.jpg</thumbnail>
+    <fanart>http://www.elbernabeu.com/media/elbernabeu/images/2017/10/19/2017101916091181905.jpg</fanart>
+</item>
+ 
+
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Whitesnake  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -504,29 +571,16 @@
 
 
 -------------------------------------------------------
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MELENDI [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-            <name>makelist</name>
-            <listrepeat><![CDATA[
-                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail></thumbnail>
-    <fanart></fanart>
-            ]]></listrepeat>
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=D9W4DLjmoOM&amp;list=RDEMYbNZqwNXrAO7XOZETj51Fg</page>
-             <cookieJar></cookieJar>
-</regex>
+
+
+
+
  
- <thumbnail>https://cdn.smehost.net/melendioficialcom-controlmestudiodevel/wp-content/uploads/2014/02/quitate_las_gafas.jpg</thumbnail>
-    <fanart>https://cdn.smehost.net/melendioficialcom-controlmestudiodevel/wp-content/uploads/2014/02/quitate_las_gafas.jpg</fanart>
-</item>
 
 
-
-
+ 
+ 
+ 
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -548,6 +602,25 @@
 </item>
  
  
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail></thumbnail>
+    <fanart></fanart>
+</item>
  
 
 
